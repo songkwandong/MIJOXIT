@@ -38,7 +38,7 @@ print("숫자 '{:>05d}'".format(300)) #오른쪽(>)으로 밀어서 출력.
 print("숫자 '{:<5d}'".format(300)) #왼쪽(<)으로 밀어서 출력.
 
 for i in range(5):
-    print("{:<5}".format("*" * (i + 1)))
+    print("{0:<5}".format("*" * (i + 1)))
 
 '''
 
@@ -58,4 +58,4 @@ for y in range(5):
 
 print("-" * 40)
 for i in range(5, 0, -1):
-    print("{:<5}".format("*" * (i)))
+    print("{0:<5}".format("*" * (i)))

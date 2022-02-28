@@ -64,4 +64,3 @@ print("=" * 40)
 #딕셔너리의 값에 따라서 키들을 정렬하고 싶은 경우 sorted()에 요소들을 비교할때
 #사용하는 키를 지정.
 print(sorted(dic1, key=dic1.__getitem__))
-print(dic1.__getitem__)

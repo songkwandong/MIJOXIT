@@ -11,7 +11,6 @@ def screen_left_click(x, y):
     rect = Rectangle(x, y)
     rect.draw_shape()
 
-
 if __name__ == "__main__":
     turtle.title("클래스를 이용한 사각형 그리기")
     #아래 코드는 터틀 그래픽 판에서 마우스 왼쪽 버튼이 클릭이 되는 것을
